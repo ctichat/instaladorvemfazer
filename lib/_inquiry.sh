@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do seu FireZAP que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link do GITHUB do seu Canal Vem Fazer que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -201,14 +201,14 @@ software_dominio() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador FireZAP, selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador Canal Vem Fazer, selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar FireZAP\n"
-  printf "   [1] Atualizar FireZAP\n"
-  printf "   [2] Deletar FireZAP\n"
-  printf "   [3] Bloquear FireZAP\n"
-  printf "   [4] Desbloquear FireZAP\n"
-  printf "   [5] Alter. dominio FireZAP\n"
+  printf "   [0] Instalar Canal Vem Fazer\n"
+  printf "   [1] Atualizar Canal Vem FazerP\n"
+  printf "   [2] Deletar Canal Vem Fazer\n"
+  printf "   [3] Bloquear Canal Vem FazerP\n"
+  printf "   [4] Desbloquear Canal Vem Fazer\n"
+  printf "   [5] Alter. dominio Canal Vem Fazer\n"
   printf "\n"
   read -p "> " option
 
